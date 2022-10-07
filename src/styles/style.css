@@ -2,14 +2,307 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
   margin: 0;
+  box-sizing: border-box;
   padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 1em;
+  border: 1px solid #29CC6A;
+  height: 44px;
+  background-color: #29CC6A;
+  cursor: pointer;
+}
+.btn__text {
+  padding: 0.5em 1em;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.coloredText {
+  color: #29CC6A;
+}
+
+.rightarrow {
+  margin-left: 1.5em;
+}
+
+.logo__text {
+  font-size: 3.4rem;
+  font-weight: bold;
+}
+
+.mainTitle {
+  font-size: 4.8rem;
+  line-height: 1.33;
+  font-weight: bold;
+  text-align: left;
+}
+
+.article {
+  padding: 2em 20em 2em 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.picture {
+  width: 720px;
+}
+.picture__content {
+  width: 100%;
+}
+
+.article__title {
+  padding: 1.2em;
+  font-size: 4rem;
+  line-height: 1.3;
+  font-weight: bold;
+  text-align: center;
+}
+
+.other__title {
+  padding: 1.2em;
+  font-size: 2.8rem;
+  line-height: 1.25;
+  font-weight: bold;
+  text-align: center;
+}
+
+.horizontalLine {
+  border: none;
+  padding-bottom: 1em;
+  border-top: 3px solid #2B2D26;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+.quote__text {
+  position: relative;
+  padding: 4em 22em 0 10em;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: left;
+}
+.quote__source {
+  padding: 1em 10em;
+  font-size: 1.6rem;
+  line-height: 1;
+  text-align: left;
+}
+
+.card {
+  position: relative;
+  margin: 1em;
+  box-shadow: 10px 5px 5px #A9ACAC;
+  border-radius: 3px;
+  width: 220px;
+  height: 176px;
+}
+.card:nth-child(3) {
+  background-color: #29CC6A;
+}
+.card:nth-child(3) .externalLink, .card:nth-child(3) .externalLink__text {
+  color: #fff;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 48px;
+}
+
+.externalLink {
+  padding: 0.5em 1em;
+  font-size: 1.6rem;
+  color: #2B2D26;
+}
+.externalLink__text {
+  position: absolute;
+  bottom: 0.5em;
+  right: 0.5em;
+  font-size: 2.6rem;
+  color: #29CC6A;
+}
+
+.label {
+  display: block;
+  margin: 1em 2em;
+  padding: 1em 2em;
+  font-size: 1.6rem;
+}
+
+.input {
+  width: 500px;
+  height: 44px;
+  padding: 1em 2em;
+  font-size: 1.6rem;
+}
+.input::placeholder {
+  color: #29CC6A;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3.6em 0;
+}
+.header__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2.4em 2.4em;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo__text {
+  display: inline-block;
+  padding: 0 1.2em;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 12em;
+}
+.navbar__item {
+  margin: 1em;
+  list-style: none;
+}
+.navbar__item__link {
+  padding: 0.5em 1em;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-decoration: none;
+  color: #2B2D26;
+}
+
+.slider {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 3.6em;
+}
+.slider__picture {
+  width: 50%;
+  padding: 2em 4em;
+}
+.slider__article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.slider__article .mainTitle {
+  margin-right: 2em;
+  padding-right: 2.4em;
+}
+
+.accordionList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.accordionList__item {
+  font-size: 1.6rem;
+  text-align: left;
+  list-style-type: decimal-leading-zero;
+  list-style-position: inside;
+}
+
+.accordionItem {
+  display: flex;
+  justify-content: space-between;
+}
+.accordionItem__text .other__title {
+  padding: 0;
+  text-align: left;
+}
+
+.accordionIcon {
+  display: flex;
+  align-items: center;
+}
+.accordionIcon .plusSign {
+  margin-bottom: 1em;
+}
+
+.quotation {
+  display: flex;
+  padding: 4em 0;
+}
+.quotation .coloredText {
+  margin: 4em 0 0 0;
+  padding: 0 0 4em 0;
+  border-left: 10px solid #29CC6A;
+}
+.quotation__text {
+  position: relative;
+}
+.quotation__text .quotedown {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 15em;
+}
+.quotation__text .quoteup {
+  position: absolute;
+  bottom: 40%;
+  right: 0;
+  padding-right: 15em;
+}
+.quotation__text .invisionLogo {
+  position: absolute;
+  bottom: 20%;
+  left: 0;
+  padding-left: 15em;
+}
+
+.cards {
+  padding: 4em 0;
+}
+.cards .article__title {
+  padding: 1em 0;
+  text-align: left;
+}
+
+.cardBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form {
+  background-color: #29CC6A;
+  color: #fff;
+}
+.form__box .btn {
+  border: 1px solid #fff;
+  width: 145px;
 }
 
 /*# sourceMappingURL=style.css.map */
