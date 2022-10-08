@@ -1,4 +1,4 @@
-import minusSign from '../img/png/minus.png';
+import minusSign from '../../img/png/minus.png';
 
 function MinusSign(props) {
 	return (

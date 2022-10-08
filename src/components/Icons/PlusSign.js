@@ -1,4 +1,4 @@
-import plusSign from '../img/png/plus.png';
+import plusSign from '../../img/png/plus.png';
 
 function PlusSign(props) {
 	return (

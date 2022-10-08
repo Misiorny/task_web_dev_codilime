@@ -1,4 +1,4 @@
-import circleImg from "../img/png/circle.png"
+import circleImg from "../../img/png/circle.png"
 function CircleIcon(){
 	return(
 			<img className="icon" src={circleImg} alt="Woman with computer" />

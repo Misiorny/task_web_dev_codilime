@@ -1,8 +1,8 @@
-import ArticleParagraph from '../components/ArticleParagraph';
-import MainTitle        from '../components/MainTitle';
-import Picture          from '../components/Picture';
-import Button           from '../components/Button';
-import RightArrow       from '../components/RightArrow';
+import ArticleParagraph from '../components/Typography/ArticleParagraph';
+import MainTitle from '../components/Typography/MainTitle';
+import Picture   from '../components/Pictures/Picture';
+import Button    from '../components/Form/Button';
+import RightArrow from '../components/Icons/RightArrow';
 
 function Slider() {
 	return (

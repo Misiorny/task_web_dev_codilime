@@ -1,4 +1,4 @@
-import rightArrow from '../img/png/rarrow.png';
+import rightArrow from '../../img/png/rarrow.png';
 
 function RightArrow(props) {
 	return (

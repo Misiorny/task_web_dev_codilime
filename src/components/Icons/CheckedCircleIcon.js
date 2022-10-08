@@ -1,4 +1,4 @@
-import checkedCircleImg from "../img/png/checkedcircle.png"
+import checkedCircleImg from "../../img/png/checkedcircle.png"
 
 function CheckedCircleIcon() {
 	return (

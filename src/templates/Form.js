@@ -1,7 +1,7 @@
-import OtherTitle from '../components/OtherTitle';
-import Input        from '../components/Input';
-import Button       from '../components/Button';
-import Label        from '../components/Label';
+import OtherTitle from '../components/Typography/OtherTitle';
+import Input      from '../components/Form/Input';
+import Button     from '../components/Form/Button';
+import Label      from '../components/Form/Label';
 
 function Form() {
 	return (

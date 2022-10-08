@@ -1,8 +1,8 @@
-import ArticleTitle   from '../components/ArticleTitle';
-import AccordionItem  from '../components/AccordionItem';
-import MinusSign      from '../components/MinusSign';
-import PlusSign       from '../components/PlusSign';
-import HorizontalLine from '../components/HorizontalLine';
+import ArticleTitle   from '../components/Typography/ArticleTitle';
+import AccordionItem  from '../components/Other/AccordionItem';
+import MinusSign      from '../components/Icons/MinusSign';
+import PlusSign       from '../components/Icons/PlusSign';
+import HorizontalLine from '../components/Other/HorizontalLine';
 
 function List() {
 	return (

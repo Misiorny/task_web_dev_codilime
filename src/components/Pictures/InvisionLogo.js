@@ -1,4 +1,4 @@
-import invisionLogo from '../img/png/logo.png';
+import invisionLogo from '../../img/png/logo.png';
 
 function InvisionLogo(props) {
 	return (

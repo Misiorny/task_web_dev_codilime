@@ -1,4 +1,4 @@
-import quoteDown from '../img/png/quotedown.png';
+import quoteDown from '../../img/png/quotedown.png';
 
 function QuoteDown(props) {
 	return (

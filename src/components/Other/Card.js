@@ -1,4 +1,4 @@
-import ExternalLink from './ExternalLink';
+import ExternalLink from '../Navigation/ExternalLink';
 
 function Card(props) {
 	return (

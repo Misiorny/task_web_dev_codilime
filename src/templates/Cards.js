@@ -1,10 +1,10 @@
-import ArticleTitle      from '../components/ArticleTitle';
-import ArticleParagraph  from '../components/ArticleParagraph';
-import Card              from '../components/Card';
-import CircleIcon        from '../components/CircleIcon';
-import ScissorsIcon      from '../components/ScissorsIcon';
-import AndroidIcon       from '../components/AndroidIcon';
-import CheckedCircleIcon from '../components/CheckedCircleIcon';
+import ArticleTitle     from '../components/Typography/ArticleTitle';
+import ArticleParagraph from '../components/Typography/ArticleParagraph';
+import Card             from '../components/Other/Card';
+import CircleIcon       from '../components/Icons/CircleIcon';
+import ScissorsIcon      from '../components/Icons/ScissorsIcon';
+import AndroidIcon       from '../components/Icons/AndroidIcon';
+import CheckedCircleIcon from '../components/Icons/CheckedCircleIcon';
 
 function Cards() {
 	return (
@@ -12,7 +12,7 @@ function Cards() {
 			<ArticleTitle articleTitle="Massa tempor nec feugiat nisl pretium fusce"/>
 			<ArticleParagraph
 				articleText={["Pellentesque", <strong> habitant </strong>, "morbi tristique senectus et netus et malesuada.",
-					<strong>Ipsum faucibus vitae</strong>, "aliquet nec ullamcorper sit amet risus nullam.Dictum varius duis at consectetur",
+					<strong>Ipsum faucibus vitae </strong>, "aliquet nec ullamcorper sit amet risus nullam.Dictum varius duis at consectetur",
 					<mark> lorem donec </mark>, "massa sapien.Massa tempor nec feugiat nisl pretium fusce."]}/>
 			<ArticleParagraph articleText="Elit scelerisque mauris pellentesque ?"/>
 			<div className="cardBox">

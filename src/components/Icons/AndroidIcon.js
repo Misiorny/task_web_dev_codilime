@@ -1,4 +1,4 @@
-import androidImg from "../img/png/android.png"
+import androidImg from "../../img/png/android.png"
 
 function AndroidIcon() {
 	return (

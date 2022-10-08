@@ -1,4 +1,4 @@
-import quoteUp from '../img/png/quoteup.png';
+import quoteUp from '../../img/png/quoteup.png';
 
 function QuoteUp(props) {
 	return (
