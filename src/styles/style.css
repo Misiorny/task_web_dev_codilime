@@ -161,6 +161,17 @@ html {
   color: #29CC6A;
 }
 
+.list {
+  text-align: left;
+  list-style: none;
+  padding-left: 4em;
+}
+.list__item {
+  padding: 1em 0;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -254,7 +265,7 @@ html {
 
 .quotation {
   display: flex;
-  padding: 4em 0;
+  padding: 4em 0 4em 4em;
 }
 .quotation .coloredText {
   margin: 4em 0 0 0;
@@ -286,8 +297,11 @@ html {
 .cards {
   padding: 4em 0;
 }
+.cards .article {
+  padding-left: 2.5em;
+}
 .cards .article__title {
-  padding: 1em 0;
+  padding: 1em 0 1em 1em;
   text-align: left;
 }
 
@@ -303,6 +317,52 @@ html {
 .form__box .btn {
   border: 1px solid #fff;
   width: 145px;
+}
+.form .label {
+  margin: 1em 2em 0;
+}
+
+.footer {
+  background-color: #2B2D26;
+  color: #fff;
+}
+.footer__lists {
+  display: flex;
+}
+.footer__footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 0;
+  font-size: 1.4rem;
+  letter-spacing: -0.02em;
+  border-top: 3px solid #29CC6A;
+}
+.footer__footer-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.productsList {
+  padding: 4em 8em;
+}
+.productsList .other__title {
+  padding: 1em 0;
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  text-align: left;
+}
+.productsList .list {
+  padding: 0;
+}
+
+.socialBox {
+  display: flex;
+  justify-content: flex-end;
+  padding: 4em 8em;
+}
+.socialBox .svgIcon {
+  padding: 2em;
 }
 
 /*# sourceMappingURL=style.css.map */

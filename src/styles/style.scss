@@ -20,7 +20,6 @@ html {
 }
 
 //COMPONENTS STYLE
-
 .btn {
   display: inline-block;
   margin: 0 1em;
@@ -169,14 +168,24 @@ html {
   padding: 1em 2em;
   font-size: 1.6rem;
 
-
   &::placeholder {
     color: $main-color;
   }
 }
 
-//TEMPLATES STYLE
+.list {
+  text-align: left;
+  list-style: none;
+  padding-left: 4em;
 
+  &__item {
+    padding: 1em 0;
+    font-size: 1.6rem;
+    line-height: 1.5;
+  }
+}
+
+//TEMPLATES STYLE
 .header {
   display: flex;
   flex-direction: column;
@@ -282,7 +291,7 @@ html {
 
 .quotation {
   display: flex;
-  padding: 4em 0;
+  padding: 4em 0 4em 4em;
 
   .coloredText {
     margin: 4em 0 0 0;
@@ -318,9 +327,12 @@ html {
 
 .cards {
   padding: 4em 0;
+  .article{
+    padding-left: 2.5em;
+  }
 
   .article__title {
-    padding: 1em 0;
+    padding: 1em 0 1em 1em;
     text-align: left;
   }
 }
@@ -330,16 +342,63 @@ html {
   justify-content: space-around;
 }
 
-.form{
+.form {
   background-color: $main-color;
-  color:$text-light-color;
-  &__box{
-    .btn{
-      border:1px solid $text-light-color;
+  color: $text-light-color;
+
+  &__box {
+    .btn {
+      border: 1px solid $text-light-color;
       width: 145px;
     }
   }
-}
-.footer{
 
+  .label {
+    margin: 1em 2em 0;
+  }
+}
+
+.footer {
+  background-color: $bg-footer-color;
+  color: $text-light-color;
+
+  &__lists {
+    display: flex;
+  }
+
+  &__footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    font-size: 1.4rem;
+    letter-spacing: -0.02em;
+    border-top: 3px solid $main-color;
+    &-link{
+      text-decoration: none;
+      color: $text-light-color;
+    }
+  }
+}
+
+.productsList {
+  padding: 4em 8em;
+
+  .other__title {
+    padding: 1em 0;
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: bold;
+    text-align: left;
+  }
+  .list{
+    padding: 0;
+  }
+}
+.socialBox{
+  display: flex;
+  justify-content: flex-end;
+  padding: 4em 8em;
+  .svgIcon{
+    padding: 2em;
+  }
 }
