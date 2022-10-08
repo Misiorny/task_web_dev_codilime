@@ -31,7 +31,7 @@ Created by Krzysztof Stankiewicz
 
 [GitHub](https://github.com/Misiorny/task_web_dev_codilime)
 
-##### <font color="lime">Thank you for your time. I hope on code review as result of recruitment process.</font>
+##### <font color="lime"> Thank you for your time. I hope on code review as result of recruitment process.</font>
 
 Regards  
 Krzysztof
