@@ -14,15 +14,13 @@ Created by Krzysztof Stankiewicz
 - Hope, I understand it properly - change
   on web was implement only by using CSS.
 
-
 #### Information about coding
 
 - Hard to know what UI/UX designer idea was but made it with my sense
   of beauty
 
     - semantic tags are used but hard to know which tag will be better
-      due to latin "Lorem" text,
-    
+      due to latin "Lorem" text,  
 
 - There is no mobile version,
 - Lack of experience and the related need to look for solutions is the
@@ -33,9 +31,7 @@ Created by Krzysztof Stankiewicz
 
 [GitHub](https://github.com/Misiorny/task_web_dev_codilime)
 
-
 ##### <font color="lime">Thank you for your time. I hope on code review as result of recruitment process.</font>
-
 
 Regards  
 Krzysztof
