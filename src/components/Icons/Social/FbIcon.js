@@ -1,4 +1,4 @@
-import fbSvg        from "../../../img/svg/fb.svg"
+import fbSvg from "../../../img/svg/fb.svg"
 
 function FbIcon() {
 	return (

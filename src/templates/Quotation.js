@@ -1,9 +1,6 @@
-import Quote        from '../components/Typography/Quote';
-import ArticleTitle from '../components/Typography/ArticleTitle';
-import QuoteDown    from '../components/Icons/QuoteDown';
-import QuoteUp      from '../components/Icons/QuoteUp';
-import ColoredText  from '../components/Typography/ColoredText';
-import InvisionLogo from '../components/Pictures/InvisionLogo';
+import { Quote, ArticleTitle, ColoredText } from '../components/Typography';
+import { QuoteDown, QuoteUp }               from '../components/Icons';
+import { InvisionLogo }                     from '../components/Pictures';
 
 function Quotation() {
 	return (

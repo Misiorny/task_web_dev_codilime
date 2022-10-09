@@ -1,4 +1,4 @@
-import tweeterSvg   from "../../../img/svg/tweeter.svg"
+import tweeterSvg from "../../../img/svg/tweeter.svg"
 
 function TweeterIcon() {
 	return (

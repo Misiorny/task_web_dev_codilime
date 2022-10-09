@@ -1,4 +1,4 @@
-import githubSvg    from "../../../img/svg/github.svg"
+import githubSvg from "../../../img/svg/github.svg"
 
 function GithubIcon() {
 	return (

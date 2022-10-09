@@ -1,5 +1,5 @@
-import UnorderedList from '../components/Unordered List/UnorderedList';
-import SocialBox     from '../components/Other/SocialBox';
+import UnorderedList from '../components/UnorderedList';
+import { SocialBox }     from '../components/Other';
 
 function Footer() {
 	return (

@@ -1,8 +1,4 @@
-import FbIcon        from '../Icons/Social/FbIcon';
-import TweeterIcon   from '../Icons/Social/TweeterIcon';
-import InstagramIcon from '../Icons/Social/InstagramIcon';
-import MIcon         from '../Icons/Social/MIcon';
-import GithubIcon    from '../Icons/Social/GithubIcon';
+import FbIcon, { TweeterIcon, InstagramIcon, MIcon, GithubIcon } from '../Icons/Social';
 
 function SocialBox() {
 	return (

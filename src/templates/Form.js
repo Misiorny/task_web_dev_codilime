@@ -1,7 +1,5 @@
 import OtherTitle from '../components/Typography/OtherTitle';
-import Input      from '../components/Form/Input';
-import Button     from '../components/Form/Button';
-import Label      from '../components/Form/Label';
+import Button, {Input, Label, }     from '../components/Form';
 
 function Form() {
 	return (

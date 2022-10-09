@@ -1,7 +1,7 @@
-import Navbar from '../components/Navigation/Navbar';
-import Button     from '../components/Form/Button';
-import Logo       from '../components/Pictures/Logo';
-import RightArrow from '../components/Icons/RightArrow';
+import { Navbar } from '../components/Navigation';
+import Button     from '../components/Form';
+import Logo       from '../components/Pictures';
+import RightArrow from '../components/Icons';
 
 function Header() {
 	return (

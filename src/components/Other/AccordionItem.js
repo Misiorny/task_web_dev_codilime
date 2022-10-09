@@ -1,5 +1,4 @@
-import OtherTitle       from '../Typography/OtherTitle';
-import ArticleParagraph from '../Typography/ArticleParagraph';
+import ArticleParagraph, { OtherTitle } from '../Typography';
 
 function AccordionItem(props) {
 	return (

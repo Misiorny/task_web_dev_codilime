@@ -13,6 +13,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.App {
+  text-align: center;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 1440px;
@@ -162,9 +166,9 @@ html {
 }
 
 .list {
+  padding-left: 4em;
   text-align: left;
   list-style: none;
-  padding-left: 4em;
 }
 .list__item {
   padding: 1em 0;

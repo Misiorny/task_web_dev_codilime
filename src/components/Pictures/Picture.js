@@ -1,8 +1,9 @@
 import womanImg from "../../img/png/woman.png"
-function Picture(){
-	return(
+
+function Picture() {
+	return (
 		<figure className="picture">
-			<img className="picture__content" src={womanImg} alt="Woman with computer" />
+			<img className="picture__content" src={womanImg} alt="Woman with computer"/>
 		</figure>
 	)
 }

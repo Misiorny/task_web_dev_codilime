@@ -1,5 +1,5 @@
-import OtherTitle from '../Typography/OtherTitle';
-import ListItem   from '../Navigation/ListItem';
+import { OtherTitle } from '../Typography';
+import { ListItem }   from '../Navigation';
 
 function UnorderedList(props) {
 	return (

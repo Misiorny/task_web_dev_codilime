@@ -1,7 +1,8 @@
 import circleImg from "../../img/png/circle.png"
-function CircleIcon(){
-	return(
-			<img className="icon" src={circleImg} alt="Woman with computer" />
+
+function CircleIcon() {
+	return (
+		<img className="icon" src={circleImg} alt="Woman with computer"/>
 	)
 }
 

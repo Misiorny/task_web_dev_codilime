@@ -1,19 +1,18 @@
-import ArticleTitle     from '../components/Typography/ArticleTitle';
-import ArticleParagraph from '../components/Typography/ArticleParagraph';
-import Card             from '../components/Other/Card';
-import CircleIcon       from '../components/Icons/CircleIcon';
-import ScissorsIcon      from '../components/Icons/ScissorsIcon';
-import AndroidIcon       from '../components/Icons/AndroidIcon';
-import CheckedCircleIcon from '../components/Icons/CheckedCircleIcon';
+import ArticleParagraph, { ArticleTitle }                           from '../components/Typography';
+import { Card }                                                         from '../components/Other';
+import AndroidIcon, { CheckedCircleIcon, ScissorsIcon, CircleIcon } from '../components/Icons';
 
 function Cards() {
 	return (
-		<section className="cards" >
+		<section className="cards">
 			<ArticleTitle articleTitle="Massa tempor nec feugiat nisl pretium fusce"/>
 			<ArticleParagraph
-				articleText={["Pellentesque", <strong> habitant </strong>, "morbi tristique senectus et netus et malesuada.",
-					<strong>Ipsum faucibus vitae </strong>, "aliquet nec ullamcorper sit amet risus nullam.Dictum varius duis at consectetur",
-					<mark> lorem donec </mark>, "massa sapien.Massa tempor nec feugiat nisl pretium fusce."]}/>
+				articleText={[
+					"Pellentesque", <strong> habitant </strong>, "morbi tristique senectus et netus et malesuada.",
+					<strong>Ipsum faucibus vitae </strong>,
+					"aliquet nec ullamcorper sit amet risus nullam.Dictum varius duis at consectetur", <mark> lorem donec </mark>,
+					"massa sapien.Massa tempor nec feugiat nisl pretium fusce."]}
+			/>
 			<ArticleParagraph articleText="Elit scelerisque mauris pellentesque ?"/>
 			<div className="cardBox">
 				<Card href="https://codilime.com/services/golang-development/" icon={<CircleIcon/>}/>

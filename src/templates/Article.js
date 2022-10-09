@@ -1,6 +1,5 @@
-import ArticleTitle     from '../components/Typography/ArticleTitle';
-import ArticleParagraph from '../components/Typography/ArticleParagraph';
-import Picture          from '../components/Pictures/Picture';
+import ArticleParagraph, {ArticleTitle} from '../components/Typography';
+import Picture          from '../components/Pictures';
 
 function Article() {
 	return (

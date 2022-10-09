@@ -1,4 +1,4 @@
-import mSvg         from "../../../img/svg/m.svg"
+import mSvg from "../../../img/svg/m.svg"
 
 function MIcon() {
 	return (
